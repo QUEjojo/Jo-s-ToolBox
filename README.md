@@ -46,7 +46,7 @@ Contributions are welcomed! To contribute:
 5. Submit a pull request.
 
 ## License
-
+License= MIT
 
 ##Contact
 For questions or suggestions, please contact [Jovita(Jo)] at [gomezjovita68@gmail.com].
