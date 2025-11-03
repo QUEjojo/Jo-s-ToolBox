@@ -13,29 +13,52 @@ joTOOLS is a versatile QGIS plugin designed to streamline common geospatial data
 ## Usage
 Once installed and activated:
 - The plugin appears as a dock panel titled **joTOOLS**.
-- Select a tool from the dropdown menu:
+- Select the Tool Tab depending on what you want layer you're working with.
+ - Address Tools:
   - Auto Address Creator
-  - Delete Points Without External IDs
   - Centralize Address Points
+  - Delete Points without External IDs
+  - Mass Editor
   - Unit Counter
+ - Parcel Tools:
+  - NA
+ - Other Tools:
+  - Batch Field Editor
   - Duplicate Detector
-- Click the **"Click Me"** button to execute the selected tool.
+  - Null + Orphan Finder
+  - Smart Snap
+- Click the **"Run"** button to execute the selected tool.
 
 ## Features
 ### 1. Auto Address Creator
 Automatically generates address attributes for selected point features.
 
-### 2. Delete Points Without External IDs
-Removes address points that lack external identifiers, ensuring data integrity.
-
-### 3. Centralize Address Points
+### 2. Centralize Address Points
 Adjusts address points to be centered within their corresponding parcel or building footprint.
 
-### 4. Unit Counter
+### 3. Delete Points Without External IDs
+Removes address points that lack external identifiers, ensuring data integrity.
+
+### 4. Mass Editor
+Updates a given attribute field value for selected features in selected layer.
+
+### 5. Smart Split
+Automatically splits an address point into multiple sub-features based on the Homecount attribute.
+
+### 6. Unit Counter
 Counts the number of residential or commercial units within a selected area.
 
-### 5. Duplicate Detector
+### 7. Batch Field Editor
+Updates multiple fields across selected features within any layer.
+
+### 8. Duplicate Detector
 Identifies and flags duplicate address points based on spatial and attribute criteria.
+
+### 9. Null + Orphan Finder
+Detects address points missing essential fields, and detects orphaned features (points not linked to a parent feature, such as a parcel, building footprint, or street).
+
+### 10. Smart Snap
+Automatically detects and snaps nearby vertices within a configurable tolerance to reduce redundant geometry complexity, making maps render faster and look cleaner, while maintaining spatial integrity.
 
 ## Contributing
 Contributions are welcomed! To contribute:
@@ -46,7 +69,7 @@ Contributions are welcomed! To contribute:
 5. Submit a pull request.
 
 ## License
-License= MIT
+license=MIT
 
 ##Contact
 For questions or suggestions, please contact [Jovita(Jo)] at [gomezjovita68@gmail.com].
