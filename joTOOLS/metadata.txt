@@ -1,0 +1,22 @@
+[general]
+name=joTOOLS
+qgisMinimumVersion=3.44.2
+description=joTOOLS.py is a QGIS plugin that provides a user-friendly dockable interface for performing various spatial data operations such as auto-generating address points, detecting duplicates, centralizing features, and managing unit numbers within GIS layers.
+about=joTOOLS is a versatile, dockable panel extension for QGIS that consolidates tools into a single, user-friendly interface.
+    Designed to streamline workflows and enhance productivity, it provides quick access to commonly used spatial data operations through a clean and intuitive layout.
+    Contains: Auto Address Creator, Delete points w/out External IDs, Centralize Address points, Unit Counter, Duplicate Detector, Smart Split, Null + Orphan Finder, and Mass Editor. 
+version=v2.0
+author=Jovita (Jo) Gomez
+email=gomezjovita68@gmail.com
+experimental=False
+deprecated=False
+tags= python, address, duplicate, geospatial
+homepage=https://github.com/QUEjojo/Jo-s-ToolBox
+repository=https://github.com/QUEjojo/Jo-s-ToolBox
+tracker=https://github.com/QUEjojo/Jo-s-ToolBox/issues
+icon=Toolbox.png
+category=Plugins
+license=MIT
+changelog=1.0.0 - Initial release with core functionalities.
+	1.0.1 - Added active layer support for centralization tool and fixed plugin loading errors.
+	2.0.0 - Smart Split, Null + Orphan Finder, and Mass Editor features have been added, 
